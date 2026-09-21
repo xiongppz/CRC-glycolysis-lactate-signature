@@ -1,0 +1,34 @@
+# Local R and RStudio files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Raw public datasets and external resources: download from original providers
+/TCGA/
+/GSE221575/
+/GSE161158/
+/genesets.v2024.1.Hs.gmt
+/glycolysis.csv
+/TCIA-ClinicalData*.tsv
+/IMvigor210CoreBiologies.Rdata
+/mmc3.xlsx
+
+# Generated analysis objects, including potentially large or sample-level results
+*.Rdata
+*.RData
+*.rds
+*.RDS
+/all_risk.txt
+/train_risk.txt
+/test_risk.txt
+/train_data.txt
+/test_data.txt
+
+# Optional local output directories
+/results/
+/figures/
+
+# Do NOT ignore README.md, CRC_analysis.R, generate_sessionInfo.R,
+# sessionInfo.txt, or package_versions.csv.
+# NOTE: .gitignore does not automatically block files manually uploaded in the GitHub web UI.
